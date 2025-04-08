@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Loco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="section">
+            <h2>Elige un personaje:</h2>
+            <button class="option" data-type="personaje" data-value="Don Quijote">Don Quijote</button>
+            <button class="option" data-type="personaje" data-value="Sherlock Holmes">Sherlock Holmes</button>
+            <button class="option" data-type="personaje" data-value="Alicia">Alicia</button>
+        </div>
+
+        <div class="section">
+            <h2>Elige un estado de ánimo:</h2>
+            <button class="option" data-type="estado" data-value="muy estresado/a">Muy estresado</button>
+            <button class="option" data-type="estado" data-value="feliz">Feliz</button>
+            <button class="option" data-type="estado" data-value="confundido/a">Confundido</button>
+        </div>
+
+        <div class="section">
+            <h2>Elige un lugar:</h2>
+            <button class="option" data-type="lugar" data-value="la playa">La playa</button>
+            <button class="option" data-type="lugar" data-value="el bosque">El bosque</button>
+            <button class="option" data-type="lugar" data-value="la montaña">La montaña</button>
+        </div>
+
+        <div class="resultado">
+            <h2>Resultado:</h2>
+            <p id="frase">Selecciona un personaje, un lugar y un estado de ánimo para ver la frase.</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
